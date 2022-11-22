@@ -8,12 +8,13 @@ body {
   display: flex;
   flex-direction: column;
   line-height: 1.3;
-  font-family: Arial;
 }
 
 header h1 {
   display: inline-block;
   font-size: 48px;
+  background-color: #c7c7c7;
+  color:  #242a2c;
 }
 
 header {
@@ -57,7 +58,7 @@ ul {
   margin-left: 20px;
   margin-top: 10px;
   padding: 10px;
-  height: 300px;
+  height: 200px;
   display: flex;
 }
 
@@ -68,6 +69,7 @@ ul {
   text-align: right;
   border-right: solid #242a2c;
   padding-right: 10px;
+  color: #242a2c;
 }
 
 .about-me p {
@@ -76,6 +78,46 @@ ul {
   padding-right: 70px;
   font-family: 'Trebuchet MS';
   color: #242a2c;
+  background-color: white;
 
 }
 
+
+.work {
+  margin-left: 38px;
+  margin-top: 30px;
+  padding: 10px;
+  height: 600px;
+  display: flex;
+}
+
+.work h2 {
+  margin-left: 60px;
+  font-size: 50px;
+  font-family: 'Trebuchet MS';
+  text-align: left;
+  border-right: solid #242a2c;
+  padding-right: 10px;
+  color: #242a2c;
+}
+
+
+.contact-me {
+  margin-top: 20px;
+  margin-right: 40px;
+  padding: 10px;
+  height: 150px;
+  width: 151px;
+  display: flex;
+}
+
+
+.contact-me h2 {
+  margin-left: 38px;
+  font-size: 50px;
+  padding-right: 10px;
+  text-align: right;
+  font-family: 'Trebuchet MS';
+  border-right: solid #242a2c;
+  color: #242a2c;
+}
