@@ -14,13 +14,13 @@ header h1 {
   display: inline-block;
   font-size: 48px;
   background-color: #c7c7c7;
-  color:  #242a2c;
+  color:  #364144;
 }
 
 header {
   padding: 15px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  background-color: #242a2c;
+  background-color: #364144;
   color: #c7c7c7;
 }
 
@@ -52,10 +52,24 @@ ul {
   background-image: url(../images/cover\ photo.jpg);
   background-size: auto;
   background-position: center;
+  display: block;
+  position: relative;
+}
+
+.subtitles {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #364144 ;
+  color: #c7c7c7;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Trebuchet MS';
+  font-size: 40px;
 }
 
 .about-me {
-  margin-left: 20px;
+  margin-left: 80px;
   margin-top: 10px;
   padding: 10px;
   height: 200px;
@@ -67,9 +81,9 @@ ul {
   font-size: 50px;
   font-family: 'Trebuchet MS';
   text-align: right;
-  border-right: solid #242a2c;
+  border-right: solid #364144;
   padding-right: 10px;
-  color: #242a2c;
+  color: #364144;
 }
 
 .about-me p {
@@ -77,18 +91,18 @@ ul {
   margin-top: 10px;
   padding-right: 70px;
   font-family: 'Trebuchet MS';
-  color: #242a2c;
+  color: #364144;
   background-color: white;
 
 }
 
-
 .work {
-  margin-left: 38px;
+  margin-left: 97px;
   margin-top: 30px;
   padding: 10px;
-  height: 600px;
+  height: 950px;
   display: flex;
+
 }
 
 .work h2 {
@@ -96,9 +110,9 @@ ul {
   font-size: 50px;
   font-family: 'Trebuchet MS';
   text-align: left;
-  border-right: solid #242a2c;
+  border-right: solid #364144;
   padding-right: 10px;
-  color: #242a2c;
+  color: #364144;
 }
 
 
@@ -113,11 +127,60 @@ ul {
 
 
 .contact-me h2 {
-  margin-left: 38px;
+  margin-left: 97px;
   font-size: 50px;
   padding-right: 10px;
   text-align: right;
   font-family: 'Trebuchet MS';
-  border-right: solid #242a2c;
-  color: #242a2c;
+  border-right: solid #364144;
+  color: #364144;
 }
+
+ .contact-me ul li {
+  display: inline-block;
+  margin-left: 180px;
+  margin-top: 40px;
+  font-family: 'Trebuchet MS';
+  font-size: 18px;
+  text-decoration: underline;
+  color: #364144;
+}
+.content {
+  display: flex; 
+  flex-wrap: wrap;
+  border: #364144;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.surf-report {
+width: 1380px;
+height: 480px;
+display: flex;
+
+}
+
+.surf-report img {
+width: auto;
+height: auto;
+border: 8px solid #364144;
+object-fit: cover;
+  }
+
+.led-wall, .calculator, .pastel-puzzel, .run-buddy {
+width: 680px;
+height: 200px;
+justify-content: cover;
+margin: 10px;
+
+}
+
+.led-wall img, .calculator img, .pastel-puzzel img, .run-buddy img {
+width: auto;
+height: 200px;
+border: 8px solid #364144;
+object-fit: cover;
+
+  }
+
