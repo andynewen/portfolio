@@ -151,7 +151,6 @@ ul {
   border: #364144;
   align-items: center;
   justify-content: center;
-  
 }
 
 .surf-report {
@@ -184,3 +183,15 @@ object-fit: cover;
 
   }
 
+.work-image {
+opacity: 0.6;
+display: block;
+width: 100%;
+height: auto;
+transition: .8s ease;
+backface-visibility: hidden;
+}
+
+.work-image:hover {
+  opacity: 1;
+}
