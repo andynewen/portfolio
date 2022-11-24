@@ -10,8 +10,8 @@
 ## Overview
 
 
-This is the link to the live demo of the website: 
-Doing everything from scratch was somewhat difficult, but in the end it improved my CSS skills to a good extent.
+* This is the link to the live demo of the website: https://andynewen.github.io/portfolio/
+* Doing everything from scratch was somewhat difficult, but in the end it improved my CSS skills to a good extent.
 
 
 ### Built With
@@ -40,4 +40,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 
 ## Contact
+LinkedIn: https://www.linkedin.com/in/andy-nguyen-b5b356256/
 
